@@ -1,0 +1,21 @@
+.character {
+    font-size: 1.6rem;
+    margin: 2rem;
+    padding: 0 2rem;
+    border-radius: 5px;
+    background-image: radial-gradient(#f4f5f9, #dddfe6);
+}
+
+.character__name {
+    font-size: 3rem;
+    text-align: center;
+    border-bottom: solid 2px black;
+}
+
+.character__attrs {
+    list-style: none;
+}
+
+.character__attrs span {
+    font-weight: bold;
+}

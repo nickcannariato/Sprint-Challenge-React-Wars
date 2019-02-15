@@ -1,8 +1,22 @@
-.App {
-  text-align: center;
+.app {
+  box-sizing:border-box;
+  display:flex;
+  flex-flow:row wrap;
+  justify-content: center;
+  line-height: 1.5;
 }
-.Header {
+
+.header {
   color: #443e3e;
   text-shadow: 1px 1px 5px #fff;
+  font-size:4rem;
+  flex-basis:100%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
 }
 /* write your parent styles in here for your App.js */
+.header__text{
+  margin:0 5rem;
+}
